@@ -3,7 +3,10 @@ title: Shorter text
 heading: Can be longer text
 description: used as description as well as teaser text
 lead: Leade, optional
-image: Used as header image and as OG-image 
+image: 
+  url: 20231222_081036.jpg
+  opacity: 0.15
+  position: bottom right
 tags:
   - lorem
   - ipsum
