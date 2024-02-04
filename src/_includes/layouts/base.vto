@@ -27,6 +27,17 @@
 
 <body>
 
+  {{ if image }} 
+  <div id="heading-bg-img">
+    <img
+      src="/assets/img/{{ image.url }}" 
+      style="
+        opacity: {{ image.opacity || 0.1 }}; 
+        object-fit: {{ image.fit || 'cover' }};
+        object-position: {{ image.position || 'center' }};"
+    >
+  </div>
+  {{ /if }}
   <header>
     <div aria-hidden="true">
       <div id="logo">

@@ -23,7 +23,6 @@
 }
 
 * {
-  background-color: var(--color-primary-bg);
   color: var(--color-primary-fg);
 }
 
