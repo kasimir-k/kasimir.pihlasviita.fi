@@ -1,0 +1,38 @@
+:root {
+  --color-primary-hue: 60;
+  --color-default-saturation: 95%;
+  --color-default-lightness-fg: 15%;
+  --color-default-lightness-bg: 95%;
+  --color-default-lightness-bg-darker: 93%;
+
+  --color-secondary-hue: 42;
+  --color-secondary-saturation: 70%;
+  --color-secondary-lightness-fg: 15%;
+  --color-secondary-lightness-bg: 80%;
+  --color-secondary-lightness-hilite: 35%;
+}
+
+:root {
+  --color-primary-fg: hsl(var(--color-primary-hue), var(--color-default-saturation), var(--color-default-lightness-fg));
+  --color-primary-bg: hsl(var(--color-primary-hue), var(--color-default-saturation), var(--color-default-lightness-bg));
+  --color-primary-bg-darker: hsl(var(--color-primary-hue), var(--color-default-saturation), var(--color-default-lightness-bg-darker));
+
+  --color-secondary-fg: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), var(--color-secondary-lightness-fg));
+  --color-secondary-bg: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), var(--color-secondary-lightness-bg));
+  --color-secondary-hilite: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), var(--color-secondary-lightness-hilite));
+}
+
+* {
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary-fg);
+}
+
+header, header *, footer, footer * {
+  background-color: var(--color-secondary-bg);
+  color: var(--color-secondary-fg);
+  border-color: var(--color-secondary-hilite);
+}
+
+html, body {
+  background-color: var(--color-primary-bg-darker);
+}

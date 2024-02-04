@@ -1,0 +1,21 @@
+* {
+  font-family: 'EB Garamond', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', serif;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+:root {
+  --font-family-label: 'Oswald', serif;
+}
+
+label, button {
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
+}
