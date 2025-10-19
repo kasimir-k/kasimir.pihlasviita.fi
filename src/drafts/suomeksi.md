@@ -1,8 +1,9 @@
 ---
+exclude: true
 title: Suomeksi
 heading: Tämä on suomenkielinen otsikko
 description: used as description as well as teaser text
-image: 
+image:
   url: 20240106_140221.jpg
 tags:
   - lorem

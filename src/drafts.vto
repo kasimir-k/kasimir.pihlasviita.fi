@@ -1,16 +1,18 @@
 ---
 title: Drafts
 layout: layouts/default.vto
+image:
+  url: 20251009_182158.jpg
 ---
 
 <h1>Drafts</h1>
 <p>
-Texts that might be called "posts" but as they are never ready 
+Texts that might be called "posts" but as they are never ready
 I prefer to call them "drafts".
 </p>
 
 <ul class="articles">
-  {{ for page  of search.pages("type=post") }}
+  {{ for page  of search.pages("type=post exclude!=true", "modified=desc") }}
   <li>
     <a href="{{ page.url }}">
       <h2>{{ page.title }}</h2>

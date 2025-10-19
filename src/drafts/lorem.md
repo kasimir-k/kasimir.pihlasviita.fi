@@ -1,9 +1,10 @@
 ---
+exclude: true
 title: Shorter text
 heading: Can be longer text
 description: used as description as well as teaser text
 lead: Leade, optional
-image: 
+image:
   url: 20231222_081036.jpg
   opacity: 0.15
   position: bottom left
@@ -34,4 +35,4 @@ Laboris voluptate laboris pariatur incididunt esse duis culpa minim amet officia
 
 Ullamco nulla cillum labore sint occaecat duis. Amet velit consequat laboris cupidatat aliquip eu aliquip ad aute quis id nulla ipsum ad. Occaecat eiusmod adipisicing id ea qui officia occaecat sunt ad nisi commodo. Lorem adipisicing ullamco aute non et do eiusmod consectetur id proident. Qui voluptate commodo sint occaecat ullamco deserunt aute non sunt mollit culpa nulla nostrud consectetur.
 
-Labore consectetur ad eiusmod culpa. Quis esse laborum id minim amet ea. Ullamco exercitation irure esse sunt labore tempor. Ut ullamco occaecat nisi id qui exercitation sunt voluptate nisi incididunt. Aliqua commodo elit duis aute. Laborum consectetur id deserunt ad quis. Officia est velit amet veniam consequat elit veniam amet quis.  
+Labore consectetur ad eiusmod culpa. Quis esse laborum id minim amet ea. Ullamco exercitation irure esse sunt labore tempor. Ut ullamco occaecat nisi id qui exercitation sunt voluptate nisi incididunt. Aliqua commodo elit duis aute. Laborum consectetur id deserunt ad quis. Officia est velit amet veniam consequat elit veniam amet quis.
