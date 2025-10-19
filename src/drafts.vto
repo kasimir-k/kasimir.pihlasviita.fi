@@ -1,0 +1,22 @@
+---
+title: Drafts
+layout: layouts/default.vto
+---
+
+<h1>Drafts</h1>
+<p>
+Texts that might be called "posts" but as they are never ready 
+I prefer to call them "drafts".
+</p>
+
+<ul class="articles">
+  {{ for page  of search.pages("type=post") }}
+  <li>
+    <a href="{{ page.url }}">
+      <h2>{{ page.title }}</h2>
+      {{ if page.description }}<p>{{ page.description }}</p>{{ /if }}
+      <span>{{ page.date |> date }} - {{ page.modified |> date }}</span>
+    </a>
+  </li>
+  {{ /for }}
+</ul>

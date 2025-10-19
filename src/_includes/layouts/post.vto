@@ -3,6 +3,12 @@ layout: "layouts/base.vto"
 ---
 
   <h1>{{ heading }}</h1>
+  <dl class="dates">
+    <dt>First draft</dt><dd>{{ date |> date }}</dd>
+    {{ if modified }}
+    <dt>Latest draft</dt><dd>{{ modified |> date }}</dd>
+    {{ /if }}
+  </dl>
   {{ if lead }}
   <p class="lead"><strong>{{ lead }}</strong></p>
   {{ /if }}

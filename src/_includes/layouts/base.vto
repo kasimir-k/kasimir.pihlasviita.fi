@@ -25,19 +25,11 @@
 
 </head>
 
-<body>
+<body{{ if image }} style="
+  background-image: linear-gradient(var(--color-body-bg)), url(/assets/img/{{ image.url }});
+  background-position: {{ image.position || 'center' }};
+"{{ /if}}>
 
-  {{ if image }} 
-  <div id="heading-bg-img">
-    <img
-      src="/assets/img/{{ image.url }}" 
-      style="
-        opacity: {{ image.opacity || 0.1 }}; 
-        object-fit: {{ image.fit || 'cover' }};
-        object-position: {{ image.position || 'center' }};"
-    >
-  </div>
-  {{ /if }}
   <header>
     <div aria-hidden="true">
       <div id="logo">
@@ -60,14 +52,14 @@
     <nav>
       <ul>
         <li><a href="/"{{ url === '/' && ' aria-current="page"'}}>front</a></li>
-        <li><a href="/posts/"{{ url === '/posts/' && ' aria-current="page"'}}>posts</a></li>
+        <li><a href="/drafts/"{{ url === '/drafts/' && ' aria-current="page"'}}>drafts</a></li>
         <li><a href="/about/"{{ url === '/about/' && ' aria-current="page"'}}>about</a></li>
       </ul>
     </nav>
   </header>
 
   <main>{{ content }}</main>
-  
+
   <footer>
     <p>© Kasimir Pihlasviita // email: [firstname]@[lastname].fi</p>
   </footer>

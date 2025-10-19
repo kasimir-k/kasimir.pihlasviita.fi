@@ -3,10 +3,10 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
-p {
+p, li {
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -16,6 +16,6 @@ p {
 }
 
 label, button {
-  font-family: 'Oswald', serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }

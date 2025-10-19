@@ -6,12 +6,12 @@ lead: Leade, optional
 image: 
   url: 20231222_081036.jpg
   opacity: 0.15
-  position: bottom right
+  position: bottom left
 tags:
   - lorem
   - ipsum
 date: 2024-01-02
-modified:
+modified: 2024-09-01
 ---
 
 Ipsum ullamco non dolore sit amet voluptate nostrud. Deserunt incididunt dolore ipsum commodo. Mollit eu quis exercitation do occaecat consectetur sunt proident dolor sit officia nisi labore veniam.

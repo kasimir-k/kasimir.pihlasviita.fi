@@ -20,6 +20,8 @@
   --color-secondary-fg: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), var(--color-secondary-lightness-fg));
   --color-secondary-bg: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), var(--color-secondary-lightness-bg));
   --color-secondary-hilite: hsl(var(--color-secondary-hue), var(--color-secondary-saturation), var(--color-secondary-lightness-hilite));
+
+  --color-body-bg: hsla(var(--color-primary-hue), var(--color-default-saturation), var(--color-default-lightness-bg), 0.75);
 }
 
 * {

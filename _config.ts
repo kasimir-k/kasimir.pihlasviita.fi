@@ -3,6 +3,9 @@ import base_path from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
 
 const site = lume({
+  server: {
+    debugBar: false, // disable the debug bar
+  },
   src: "./src",
 });
 
