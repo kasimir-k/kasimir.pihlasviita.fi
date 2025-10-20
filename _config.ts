@@ -10,6 +10,8 @@ const site = lume({
 });
 
 site.copy("assets");
+site.copy("ultra3");
+site.copy("sineswarm");
 
 site.use(base_path());
 site.use(date());

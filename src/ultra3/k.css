@@ -1,0 +1,105 @@
+* {
+/*
+	background: #010;
+	color: #0F0;
+*/
+	background: #fffece;
+	color: #595959;	
+	/* font-family: 'Inconsolata', 'Consolas', 'Andale Mono', monospace; */
+	font-family: 'Spectral', serif;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+body {
+	margin: 2rem auto;
+	width: 38rem;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+}
+
+h1 {
+	font-size: 1.9rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+a {
+	color: #0F0;
+	color: #000;
+}
+
+ol {
+	list-style: disc outside;
+}
+
+label {
+	display: block;
+	margin: 1em 0;
+}
+
+label span {
+	display: block;
+}
+
+textarea {
+	background: #020;
+	border: 1px solid #0F0;
+	
+	
+	background: #fffece;
+	border-color: #bf9000;
+	font-family: monospace;
+	font-size: 1rem;
+	padding: 0.5rem;
+	width: 35rem;
+}
+
+input {
+	background: #020;
+	border: 1px solid #0F0;
+	
+	background: #fffece;
+	border-color: #bf9000;
+	font-size: 1em;
+	padding: 0.5em;
+}
+
+.message_copy {
+	background: #020;
+	
+	background: #fffece;
+	padding: 1em;
+	width: 38em;
+}
+
+input[type="submit"] {
+	font-size: 1.2em;
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+}
+
+.error {
+	background: #0F0;
+	
+	background: #fffece;
+	border: 2px dashed red;
+	color: #000;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+.footer {
+	font-size: 70%;
+	margin-top: 3em;
+	text-align: right;
+}

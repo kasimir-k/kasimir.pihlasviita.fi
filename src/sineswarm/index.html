@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>SineSwarm</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <article>
+            <h1>SineSwarm</h1>
+            <h2>Exploration in emergence.</h2>
+            <p>
+                Try adjusting the parameters and click "Start".
+                Hit the ESC key to stop and return to the form.
+            </p>
+
+            <form id="settings">
+                <label>
+                    <span>Initial point count (10 - 1000)</span>
+                    <input name="initialPointCount" type="number" value="50" min="10" max="1000">
+                </label>
+                <label>
+                    <span>Initial speed limit (1 - 100)</span>
+                    <input name="initialSpeedLimit" type="number" value="10" min="1" max="100">
+                </label>
+                <label>
+                    <span>Snapping sensitivity<br>(100 - 1000; smaller value snaps more)</span>
+                    <input name="snappingSensitivity" type="number" value="500" min="100" max="1000">
+                </label>
+                <label>
+                    <span>Gravity force (1 - 100)</span>
+                    <input name="gravityForce" type="number" value="10" min="1" max="100">
+                </label>
+                <button type="submit">Start</button>
+            </form>
+        </article>
+
+        <script type="module">
+            import SineSwarm from './dist/sine-swarm.js'
+            import sineSwarmInit from './dist/sine-swarm-init.js'
+            sineSwarmInit()
+        </script>
+
+        <span id="timer"></span>
+    </body>
+</html>

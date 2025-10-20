@@ -1,0 +1,48 @@
+body {
+    background: #010;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+article {
+    color: #0F0;
+    font-family: monospace;
+    margin: auto;
+    width: 30rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+}
+
+label span {
+    display: inline-block;
+    width: 20rem;
+}
+
+input {
+    background: #000;
+    border: none;
+    border-bottom: 1px solid #0F0;
+    color: #0F0;
+}
+
+button {
+    background: #0F0;
+    border: 1px outset #0F0;
+    color: #000;
+    font-family: monospace;
+}
+
+#timer {
+    color: #090;
+    font-family: monospace;
+    font-size: 0.75rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
