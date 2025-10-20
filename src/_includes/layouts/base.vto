@@ -5,12 +5,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title ? title + ' | ' : '' }}Kasimir K Pihlasviita</title>
-  <meta name="description" content="">
+  {{ if description }}
+  <meta name="description" content="{{ description }}">
+  {{ /if }}
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:title" content="{{ title ? title + ' | ' : '' }}Kasimir K Pihlasviita">
+  {{ if description }}
+  <meta property="og:description" content="{{ description }}">
+  {{ /if }}
+  <meta property="og:type" content="{{ type === "post" ? "article" : "website" }}">
+  <meta property="og:url" content="https://kasimir.pihlasviita.fi{{ url }}">
+  <meta property="og:image" content={{ image ? `https://kasimir.pihlasviita.fi/assets/img/${image.url}` : "" }}">
 
   <link rel="icon" href="/assets/img/kaph.svg" type="image/svg+xml">
 

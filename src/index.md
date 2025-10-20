@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.vto
-descripition: Personal site of Kasimir K Pihlasviita.
+description: Personal site of Kasimir K Pihlasviita.
 image:
   url: 20250705_200226.jpg
 ---
