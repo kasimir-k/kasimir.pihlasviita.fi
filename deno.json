@@ -12,7 +12,7 @@
       "description": "Run and serve the site for development",
       "command": "deno task lume -s"
     },
-    "deploy": "deno task build && rsync -r _site/ pihlasviita@pihlasviita.fi:~/www"
+    "deploy": "deno task build && rsync -rvc _site/ pihlasviita@pihlasviita.fi:~/www/kasimir"
   },
   "compilerOptions": {
     "types": [
