@@ -21,6 +21,15 @@ footer {
 footer p {
   text-align: center;
   font-family: var(--font-family-label);
+
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+
+  @media (width < 500px) {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 main {
