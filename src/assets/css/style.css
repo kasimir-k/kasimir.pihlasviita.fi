@@ -40,6 +40,10 @@ main {
   background-image: linear-gradient(var(--color-body-bg));
 }
 
+main img {
+  max-width: 100%;
+}
+
 div#logo {
   font-size: 4.5rem;
   line-height: 3rem;
