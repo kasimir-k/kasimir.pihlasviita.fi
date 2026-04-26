@@ -10,7 +10,7 @@ tags:
   - computer
   - ai
 date: 2025-11-23
-modified: 2825-11-23
+modified: 2025-11-23
 
 ---
 
