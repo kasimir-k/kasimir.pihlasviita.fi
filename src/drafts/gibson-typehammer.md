@@ -13,13 +13,19 @@ tags:
   - computer
   - keyboard
 date: 2026-03-29
-modified: 2026-04-26
+modified: 2026-07-20
 
 ---
 
 In a [draft on keyboards](../keyboard/) I wrote about the mechanical history that causes serious ergonomic damage to the users of the electronic computer, despite the electronics having severed those mechanical chains decades ago. The need to fixate the shoulders and twist the wrists not only makas our muscles ache, but can cause permanent damage to the nerves of our arms.
 
 In this piece I write about a solution which for me seems to be the ultimate in ergonmics of using the computer with hands.
+
+{{ comp.image({
+  src: "/assets/img/gibson-unfinished.jpg",
+  alt: "Split computer keyboard with five keys for each half",
+  caption: "Gibson Typehammer - still waiting for paint."
+}) }}
 
 ## Steps to the best ergonomics: Moonlander and Burroughs
 
