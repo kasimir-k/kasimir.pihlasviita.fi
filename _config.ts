@@ -16,4 +16,9 @@ site.copy("sineswarm");
 site.use(base_path());
 site.use(date());
 
+site.preprocess(
+  [".md"],
+  pages => pages.forEach((page) => page.data.templateEngine = ["vto", "md"])
+);
+
 export default site;
